@@ -6,7 +6,7 @@ import { ApiService } from '../api.service';
   templateUrl: './view-news.component.html',
   styleUrls: ['./view-news.component.css']
 })
-export class ViewNewsComponent {
+export class ViewComponent {
   constructor(private api:ApiService){
     api.fetchData().subscribe(
       (response)=>{
